@@ -1,0 +1,31 @@
+
+GET http://localhost:3500/api/clientes
+
+###
+POST http://localhost:3500/api/clientes
+Content-Type: application/json
+
+{
+     "nombre": "Jorge ",
+    "apellido": "Acero",
+    "tipo_documento": "cedula",
+    "email": "jorgeAcero@gmail.com",
+    "documento": "10557853",
+    "edad": "15",
+    "genero": "m"
+}
+
+
+
+
+
+###
+PUT http://localhost:3500/api/clientes/62578ceb4b6ad037d9544eb2
+Content-Type: application/json
+
+{
+    "documento": "315052hola266"
+}
+
+###
+DELETE  http://localhost:3500/api/clientes/6256524547c2a490722091d4
